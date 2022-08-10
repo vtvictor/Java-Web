@@ -1,8 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    
+<%@taglib uri="http://java.sun.com/jstl/core" prefix="c" %>
+
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
 
   <meta charset="utf-8">
@@ -53,7 +55,7 @@
                       Login
                     </a>
                     <hr>
-                    <a href="register.html" class="btn btn-google btn-user btn-block">
+                    <a href="<c:url value="cadastrar"/>" class="btn btn-google btn-user btn-block">
                       Cadastrar
                     </a>
                   </form>
@@ -69,9 +71,6 @@
 
     </div>
 
-  </div>
-  <div class="d-flex justify-content-center">
-    <a href="https://www.freepik.com/vectors/business">Business vector created by freepik - www.freepik.com</a>
   </div>
 
   <!-- Bootstrap core JavaScript-->
