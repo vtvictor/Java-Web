@@ -11,6 +11,7 @@ public class CadastrarController {
 	@Get("")
 	public void cadastrar() {
 		
+		
 	}
 
 }
