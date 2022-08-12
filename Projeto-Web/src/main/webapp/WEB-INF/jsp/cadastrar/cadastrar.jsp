@@ -45,7 +45,7 @@
                     <input name="usuario.nome" type="text" class="form-control form-control-user" id="exampleFirstName" placeholder="Nome">
                   </div>
                   <div class="col-sm-6">
-                    <input type="text" class="form-control form-control-user" id="exampleLastName" placeholder="Sobrenome">
+                    <input type name ="usuario.sobrenome" type="text" class="form-control form-control-user" id="exampleLastName" placeholder="Sobrenome">
                   </div>
                 </div>
                 <div class="form-group">
@@ -53,7 +53,7 @@
                 </div>
                 <div class="form-group row">
                   <div class="col-sm-6 mb-3 mb-sm-0">
-                    <input name="usuario.senha type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Senha">
+                    <input name="usuario.senha" type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Senha">
                   </div>
                   <div class="col-sm-6">
                     <input type="password" class="form-control form-control-user" id="exampleRepeatPassword" placeholder="Confirme a Senha">

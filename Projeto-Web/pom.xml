@@ -85,9 +85,9 @@
 		
 		<!-- ################# Para Geração de Tokens ################# -->
 		<dependency>
-    		<groupId>io.jsonwebtoken</groupId>
-    		<artifactId>jjwt</artifactId>
-    		<version>0.9.0</version>
+    		<groupId>org.postgresql</groupId>
+    		<artifactId>postgresql</artifactId>
+    		<version>42.2.14</version>
 		</dependency>
 		
 		<!-- ################# Para Testes Automatizados ################# -->
